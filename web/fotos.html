@@ -5,43 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club de fans de Marvel</title>
     <link rel="icon" type="image/png" href="../img/favicon.png">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/fotos.css">
 </head>    
 <body>
     <header>
         <!--Imgaen Logo con link de index.html-->
         <a href="../index.html"><img src="../img/logo.png" height="100" alt=""></a>
-        <h2>_____________________________________________________________________________________________________________________________</h2>
     </header>
 
     <nav>
  <!--Esta sería la estructura de un menú de navegación básico, formado a partir de enlaces (Tema 3: Texto, Listas, Enlaces y Tablas)-->     
-       
-        <h2>
-            <a href="../index.html">Inici</a>
-            <a href="./general.html">General</a>
-            <a href="./fotos.html">Fotos</a>
-            <a href="./videos.html">Vídeos</a>
-            <a href="./agenda.html">Agenda</a>
-            <a href="./contacte.html">Contacte</a>
-        </h2>
+        <ul id="menu">
+            <li><a href="../index.html">Inici</a></li>
+            <li><a href="./general.html">General</a></li>
+            <li><a href="./fotos.html">Fotos</a></li>
+            <li><a href="./videos.html">Vídeos</a></li>
+            <li><a href="./agenda.html">Agenda</a></li>
+            <li><a href="./contacte.html">Contacte</a></li>
+        </ul>
     </nav>
-
-    <img src="../img/portada1.jpg" alt="">
-    <img src="../img/portada2.jpg" alt="">
-    <img src="../img/portada3.jpg" alt="">
-    <img src="../img/portada4.jpg" alt="">
-    <img src="../img/portada5.jpg" alt="">
-    <img src="../img/portada7.jpeg" alt="">
-    <img src="../img/portada6.jpg" alt="">
-    
+    <div>
+        <img class="fotos" src="../img/portada1.jpg" alt="">
+        <img class="fotos" src="../img/portada2.jpg" alt="">
+        <img class="fotos" src="../img/portada3.jpg" alt="">
+        <img class="fotos" src="../img/portada4.jpg" alt="">
+        <img class="fotos" src="../img/portada5.jpg" alt="">
+        <img class="fotos" src="../img/portada7.jpeg" alt="">
+        <img class="fotos" src="../img/portada6.jpg" alt="">
+    </div>
 
     <footer>
-        <h2>_____________________________________________________________________________________________________________________________</h2>
         <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram.webp" width="25" height="25" alt=""></a>
         <a href="https://facebook.com/" target="_blank"><img src="../img/facebook.png" width="25" height="25" alt=""></a>
         <a href="https://youtube.com/" target="_blank"><img src="../img/youtube.png" width="30" height="25" alt=""></a>
         <a href="https://tiktok.com/" target="_blank"><img src="../img/tiktok.webp" width="25" height="25" alt=""></a>
-        <p>Copyright per Eric Garcia</p>
+        <p id="copyright">Copyright per Eric Garcia</p>
     </footer>
 </body>
 </html>

@@ -5,55 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club de fans de Marvel</title>
     <link rel="icon" type="image/png" href="../img/favicon.png">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/contacte.css">
 </head>    
 <body>
 <!--Imgaen Logo con link de index.html--> 
   <header>
     <a href="../index.html"><img src="../img/logo.png" height="100" alt=""></a>
-    <h2>_______________________________________________________________________________________________________________________________</h2>
   </header>
 
 <!--Esta sería la estructura de un menú de navegación básico, formado a partir de enlaces (Tema 3: Texto, Listas, Enlaces y Tablas)-->     
   <nav>       
-    <h2>
-      <a href="../index.html">Inici</a>
-      <a href="./general.html">General</a>
-      <a href="./fotos.html">Fotos</a>
-      <a href="./videos.html">Vídeos</a>
-      <a href="./agenda.html">Agenda</a>
-      <a href="./contacte.html">Contacte</a>
-    </h2>
-  </nav>
-
-  <form action="#" method="post">
-    <ul>
-      <li>
-        <label for="nom">Nombre:<br></label>
-        <input type="text" id="nom" name="nombre"><br>
-      </li>
-      <li>
-        <label for="mail">Correo electrónico:<br></label>
-        <input type="email" id="mail" name="user_mail"><br>
-      </li>
-        <li>
-          <label for="msg">Mensaje:<br></label>
-          <textarea id="msg" name="mensaje"></textarea><br>
-        </li>
-        <li>
-          <input type="submit" value="Enviar este formulario">
-        </li>
+    <ul id="menu">
+      <li><a href="../index.html">Inici</a></li>
+      <li><a href="./general.html">General</a></li>
+      <li><a href="./fotos.html">Fotos</a></li>
+      <li><a href="./videos.html">Vídeos</a></li>
+      <li><a href="./agenda.html">Agenda</a></li>
+      <li><a href="./contacte.html">Contacte</a></li>
     </ul>
-  </form>
+  </nav>
+  <div>
+    <form action="#" method="post">
+      <ul id="formulario">
+        <li class="formulario">
+          <label for="nom">Nombre:<br></label>
+          <input type="text" id="nom" name="nombre"><br>
+        </li>
+        <li class="formulario">
+          <label for="mail">Correo electrónico:<br></label>
+          <input type="email" id="mail" name="user_mail"><br>
+        </li>
+          <li class="formulario">
+            <label for="msg">Mensaje:<br></label>
+            <textarea id="msg" name="mensaje"></textarea><br>
+          </li>
+          <li class="formulario">
+            <input type="submit" value="Enviar este formulario">
+          </li>
+      </ul>
+    </form>
 
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23866.32889115969!2d2.2672512563456406!3d41.606216200707685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4c7cf4242446d%3A0x1c7b5f146fbca228!2sGranollers%2C%20Barcelona!5e0!3m2!1sca!2ses!4v1696934976203!5m2!1sca!2ses" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23866.32889115969!2d2.2672512563456406!3d41.606216200707685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4c7cf4242446d%3A0x1c7b5f146fbca228!2sGranollers%2C%20Barcelona!5e0!3m2!1sca!2ses!4v1696934976203!5m2!1sca!2ses" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
   <footer>
-    <h2>_____________________________________________________________________________________________________________________________</h2>
     <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram.webp" width="25" height="25" alt=""></a>
     <a href="https://facebook.com/" target="_blank"><img src="../img/facebook.png" width="25" height="25" alt=""></a>
     <a href="https://youtube.com/" target="_blank"><img src="../img/youtube.png" width="30" height="25" alt=""></a>
     <a href="https://tiktok.com/" target="_blank"><img src="../img/tiktok.webp" width="25" height="25" alt=""></a>
-    <p>Copyright per Eric Garcia</p>
+    <p id="copyright">Copyright per Eric Garcia</p>
   </footer>
 </body>
 </html>

@@ -1,0 +1,29 @@
+.formulario{
+    border-style: none;
+    clear: both;
+}
+#formulario{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    clear: both;
+}
+form{
+    clear: both;
+    margin: 3em;
+}
+.formulario:hover{
+    background-color: white;
+}
+input{
+    float: left;
+}
+iframe{
+    float: right;
+    margin: 1em;
+
+}
+div{
+    height: 62.2vh;
+    width: 100%;
+}
